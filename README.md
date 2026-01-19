@@ -107,10 +107,10 @@ make sure to have the dots on the home directory
 
 ### Github setup
 ```bash
-git config --global user.name (your username)
+git config --global user.name R5
 ```
 ```bash
-git config --global user.email (Your Email)
+git config --global user.email robotics.utsa@gmail.com
 ```
 ```bash
 git config --global init.defaultBranch main
@@ -120,7 +120,7 @@ git config --global init.defaultBranch main
 eval "$(ssh-agent -s)"
 ```
 ```bash
-ssh-keygen -t ed25519 -C (Your Email)
+ssh-keygen -t ed25519 -C robotics.utsa@gmail.com
 ```
 ```bash
 xclip -selection clipboard $HOME/.ssh/id_ed25519.pub 
