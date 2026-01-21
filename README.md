@@ -187,7 +187,7 @@ InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
 ```
 edit the 'ConfigFile=' section to change theme
 ```bash
-sudo -e /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+sudo -e /usr/share/sddm/themes/sddm-custom-theme/metadata.desktop
 ```
 metadata.desktop
 ```bash
